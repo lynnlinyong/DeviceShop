@@ -1,18 +1,18 @@
 //
-//  LoginViewController.m
+//  RegistViewController.m
 //  DeviceShop
 //
 //  Created by lynn on 13-5-29.
 //  Copyright (c) 2013年 lynn. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "RegistViewController.h"
 
-@interface LoginViewController ()
+@interface RegistViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation RegistViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -1,5 +1,5 @@
 //
-//  LoginViewController.h
+//  RegistViewController.h
 //  DeviceShop
 //
 //  Created by lynn on 13-5-29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController
+@interface RegistViewController : UIViewController
 
 @end

@@ -13,6 +13,7 @@
  * Public Headers
  **/
 #import "LoginViewController.h"
+#import "RegistViewController.h"
 
 
 /**

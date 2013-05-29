@@ -17,11 +17,15 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{   
+{
+    /**
+     *第一次进入登陆页面，之后直接进入导航页面
+     **/
     LoginViewController *loginViewCtr = [LoginViewController createViewController:[LoginViewController class]];
-    UINavigationController *navCtr    = [[UINavigationController alloc]initWithRootViewController:loginViewCtr];
+    UINavigationController *navCtr    = [[[UINavigationController alloc]initWithRootViewController:loginViewCtr]autorelease];
 
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
     CLog(@"%f,%f",[[UIScreen mainScreen] bounds].size.height,
                     [[UIScreen mainScreen] bounds].size.width);
     self.window.backgroundColor    = [UIColor whiteColor];

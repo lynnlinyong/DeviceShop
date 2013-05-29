@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAD4370B1755CA1E00063010 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD437091755CA1E00063010 /* LoginViewController.m */; };
+		BA9C7EEE17565AA500640438 /* UIScreen+UIWindowSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */; };
+		BAA42B5D175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B5C175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m */; };
+		BAA42B6117560260001CA8A8 /* UIView+UIAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B6017560260001CA8A8 /* UIView+UIAdaptation.m */; };
+		BAA42B6917560794001CA8A8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B6817560794001CA8A8 /* LoginViewController.m */; };
+		BAA42B6D175607AA001CA8A8 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B6B175607AA001CA8A8 /* RegistViewController.m */; };
 		BAD437161755CFB000063010 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD437141755CFB000063010 /* LoginViewController.xib */; };
 		BAD437171755CFB000063010 /* LoginViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD437151755CFB000063010 /* LoginViewController_Ipad.xib */; };
-		BAD4371F1755D25E00063010 /* UIViewController+UIViewControllerNib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4371E1755D25E00063010 /* UIViewController+UIViewControllerNib.m */; };
 		BADA24AF175450DF0034F8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADA24AE175450DF0034F8D6 /* AppDelegate.m */; };
 		BAF2DEB71754496C0038C0F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2DEB61754496C0038C0F9 /* UIKit.framework */; };
 		BAF2DEB91754496C0038C0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2DEB81754496C0038C0F9 /* Foundation.framework */; };
@@ -23,13 +26,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA9C7EEC17565AA500640438 /* UIScreen+UIWindowSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+UIWindowSize.h"; sourceTree = "<group>"; };
+		BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+UIWindowSize.m"; sourceTree = "<group>"; };
+		BAA42B5B175601BC001CA8A8 /* UIViewController+UIViewControllerNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewControllerNib.h"; sourceTree = "<group>"; };
+		BAA42B5C175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewControllerNib.m"; sourceTree = "<group>"; };
+		BAA42B5F17560260001CA8A8 /* UIView+UIAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIAdaptation.h"; sourceTree = "<group>"; };
+		BAA42B6017560260001CA8A8 /* UIView+UIAdaptation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIAdaptation.m"; sourceTree = "<group>"; };
+		BAA42B6717560794001CA8A8 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BAA42B6817560794001CA8A8 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BAA42B6A175607AA001CA8A8 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		BAA42B6B175607AA001CA8A8 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 		BAD437051755C9FE00063010 /* ViewControlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControlHeader.h; sourceTree = "<group>"; };
-		BAD437081755CA1E00063010 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		BAD437091755CA1E00063010 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		BAD437141755CFB000063010 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		BAD437151755CFB000063010 /* LoginViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_Ipad.xib; sourceTree = "<group>"; };
-		BAD4371D1755D25E00063010 /* UIViewController+UIViewControllerNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewControllerNib.h"; sourceTree = "<group>"; };
-		BAD4371E1755D25E00063010 /* UIViewController+UIViewControllerNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewControllerNib.m"; sourceTree = "<group>"; };
 		BADA24AD175450DF0034F8D6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BADA24AE175450DF0034F8D6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BADA24B2175450E80034F8D6 /* CLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLog.h; sourceTree = "<group>"; };
@@ -61,6 +70,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA9C7EEB17565A8300640438 /* UIScreen+UIWindowSize */ = {
+			isa = PBXGroup;
+			children = (
+				BA9C7EEC17565AA500640438 /* UIScreen+UIWindowSize.h */,
+				BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */,
+			);
+			path = "UIScreen+UIWindowSize";
+			sourceTree = "<group>";
+		};
+		BAA42B5A175601BC001CA8A8 /* UIViewController+UIViewControllerNib */ = {
+			isa = PBXGroup;
+			children = (
+				BAA42B5B175601BC001CA8A8 /* UIViewController+UIViewControllerNib.h */,
+				BAA42B5C175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m */,
+			);
+			path = "UIViewController+UIViewControllerNib";
+			sourceTree = "<group>";
+		};
+		BAA42B5E1756023E001CA8A8 /* UIView+UIAdaptation */ = {
+			isa = PBXGroup;
+			children = (
+				BAA42B5F17560260001CA8A8 /* UIView+UIAdaptation.h */,
+				BAA42B6017560260001CA8A8 /* UIView+UIAdaptation.m */,
+			);
+			path = "UIView+UIAdaptation";
+			sourceTree = "<group>";
+		};
+		BAA42B6617560794001CA8A8 /* LoginAndRegistViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BAA42B6717560794001CA8A8 /* LoginViewController.h */,
+				BAA42B6817560794001CA8A8 /* LoginViewController.m */,
+				BAA42B6A175607AA001CA8A8 /* RegistViewController.h */,
+				BAA42B6B175607AA001CA8A8 /* RegistViewController.m */,
+			);
+			path = LoginAndRegistViewController;
+			sourceTree = "<group>";
+		};
 		BAD437041755C9FE00063010 /* ShareData */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,18 +119,9 @@
 		BAD437061755CA0300063010 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BAD437071755CA0300063010 /* LoginViewController */,
+				BAA42B6617560794001CA8A8 /* LoginAndRegistViewController */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		BAD437071755CA0300063010 /* LoginViewController */ = {
-			isa = PBXGroup;
-			children = (
-				BAD437081755CA1E00063010 /* LoginViewController.h */,
-				BAD437091755CA1E00063010 /* LoginViewController.m */,
-			);
-			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 		BAD4370D1755CA9F00063010 /* Resources */ = {
@@ -102,15 +140,6 @@
 			);
 			name = LoginView;
 			path = View/LoginView;
-			sourceTree = "<group>";
-		};
-		BAD4371C1755D24700063010 /* UIViewControllerNib */ = {
-			isa = PBXGroup;
-			children = (
-				BAD4371D1755D25E00063010 /* UIViewController+UIViewControllerNib.h */,
-				BAD4371E1755D25E00063010 /* UIViewController+UIViewControllerNib.m */,
-			);
-			path = UIViewControllerNib;
 			sourceTree = "<group>";
 		};
 		BADA24AB175450DF0034F8D6 /* Classes */ = {
@@ -135,8 +164,10 @@
 		BADA24B0175450E80034F8D6 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				BA9C7EEB17565A8300640438 /* UIScreen+UIWindowSize */,
+				BAA42B5E1756023E001CA8A8 /* UIView+UIAdaptation */,
+				BAA42B5A175601BC001CA8A8 /* UIViewController+UIViewControllerNib */,
 				BADA24B1175450E80034F8D6 /* Debug */,
-				BAD4371C1755D24700063010 /* UIViewControllerNib */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -271,8 +302,11 @@
 			files = (
 				BAF2DEC31754496C0038C0F9 /* main.m in Sources */,
 				BADA24AF175450DF0034F8D6 /* AppDelegate.m in Sources */,
-				BAD4370B1755CA1E00063010 /* LoginViewController.m in Sources */,
-				BAD4371F1755D25E00063010 /* UIViewController+UIViewControllerNib.m in Sources */,
+				BAA42B5D175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m in Sources */,
+				BAA42B6117560260001CA8A8 /* UIView+UIAdaptation.m in Sources */,
+				BAA42B6917560794001CA8A8 /* LoginViewController.m in Sources */,
+				BAA42B6D175607AA001CA8A8 /* RegistViewController.m in Sources */,
+				BA9C7EEE17565AA500640438 /* UIScreen+UIWindowSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

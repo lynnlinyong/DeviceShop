@@ -1,5 +1,5 @@
 //
-//  UIViewController+UIViewControllerNib.h
+//  LoginViewController.h
 //  DeviceShop
 //
 //  Created by lynn on 13-5-29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (UIViewControllerNib)
-+ (id) createViewController:(Class) className;
+@interface LoginViewController : UIViewController<UITextFieldDelegate>
+
 @end

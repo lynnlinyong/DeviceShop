@@ -18,18 +18,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //删除数据库
+    if ([[[[FMDatabaseOperate alloc]init]autorelease] removeLocalDB])
+    {
+        CLog(@"remove db success!");
+    }
+    
+    //第一次启动软件,拷贝数据库
+    [[[FMDatabaseOperate alloc]init]autorelease];
+    
     /**
      *第一次进入登陆页面，之后直接进入导航页面
      **/
-    LoginViewController *loginViewCtr = [LoginViewController createViewController:[LoginViewController class]];
-    UINavigationController *navCtr    = [[[UINavigationController alloc]initWithRootViewController:loginViewCtr]autorelease];
-
+    LoginViewController *lgVc  = [LoginViewController createViewController:[LoginViewController class]];
+    UINavigationController *nc = [[[UINavigationController alloc]initWithRootViewController:lgVc]autorelease];
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    
-    CLog(@"%f,%f",[[UIScreen mainScreen] bounds].size.height,
-                    [[UIScreen mainScreen] bounds].size.width);
     self.window.backgroundColor    = [UIColor whiteColor];
-    self.window.rootViewController = navCtr;
+    self.window.rootViewController = nc;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -61,4 +66,21 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark 
+#pragma mark - Custom Action
+- (BOOL) isFirstLauncher
+{
+    BOOL isFirst = [[NSUserDefaults standardUserDefaults] boolForKey:LAUNCHERED];
+    if (isFirst)
+    {
+        //表示不是第一次启动软件
+        return NO;
+    }
+    
+    //表示第一次启动软件
+    [[NSUserDefaults standardUserDefaults] setBool:YES
+                                            forKey:LAUNCHERED];
+    
+    return YES;
+}
 @end

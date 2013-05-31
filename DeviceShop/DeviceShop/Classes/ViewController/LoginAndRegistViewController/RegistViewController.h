@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegistViewController : UIViewController
+@interface RegistViewController : UIViewController <
+                                                    UITextFieldDelegate,
+                                                    CloudServiceDelegate>
+{
+    CloudService *cs;
+}
 
+@property (nonatomic, retain) UITextField *pwdFld;
+@property (nonatomic, retain) UITextField *emailFld;
+@property (nonatomic, retain) UITextField *rePwdFld;
 @end

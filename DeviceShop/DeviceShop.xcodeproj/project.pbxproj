@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA34E4271757464300B5A138 /* DeviceShop.db in Resources */ = {isa = PBXBuildFile; fileRef = BA34E4261757464300B5A138 /* DeviceShop.db */; };
+		BA34E42B17574D9700B5A138 /* UIViewController+ShowInfoDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34E42A17574D9700B5A138 /* UIViewController+ShowInfoDialog.m */; };
+		BA34E42E1757581200B5A138 /* FMDatabaseOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34E42D1757581100B5A138 /* FMDatabaseOperate.m */; };
+		BA929F141757A109007742B3 /* CloudService.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F131757A109007742B3 /* CloudService.m */; };
+		BA929F231757AC91007742B3 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F181757AC91007742B3 /* NSObject+SBJSON.m */; };
+		BA929F241757AC91007742B3 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F1A1757AC91007742B3 /* NSString+SBJSON.m */; };
+		BA929F251757AC91007742B3 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F1C1757AC91007742B3 /* SBJSON.m */; };
+		BA929F261757AC91007742B3 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F1E1757AC91007742B3 /* SBJsonBase.m */; };
+		BA929F271757AC91007742B3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F201757AC91007742B3 /* SBJsonParser.m */; };
+		BA929F281757AC91007742B3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F221757AC91007742B3 /* SBJsonWriter.m */; };
+		BA929F2C1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */; };
 		BA9C7EEE17565AA500640438 /* UIScreen+UIWindowSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */; };
+		BA9EFB27175704B4009B36A9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB22175704B4009B36A9 /* FMDatabase.m */; };
+		BA9EFB28175704B4009B36A9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB24175704B4009B36A9 /* FMDatabaseAdditions.m */; };
+		BA9EFB29175704B4009B36A9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB26175704B4009B36A9 /* FMResultSet.m */; };
+		BA9EFB2D175707A8009B36A9 /* ForgetPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB2B175707A8009B36A9 /* ForgetPwdViewController.m */; };
+		BA9EFB32175708E0009B36A9 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9EFB31175708E0009B36A9 /* libsqlite3.0.dylib */; };
+		BA9EFB3C17572853009B36A9 /* MainNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB3A17572853009B36A9 /* MainNavViewController.m */; };
+		BA9EFB4E175728ED009B36A9 /* ForgetPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB43175728ED009B36A9 /* ForgetPwdViewController.xib */; };
+		BA9EFB4F175728ED009B36A9 /* ForgetPwdViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB44175728ED009B36A9 /* ForgetPwdViewController_Ipad.xib */; };
+		BA9EFB50175728ED009B36A9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB46175728ED009B36A9 /* LoginViewController.xib */; };
+		BA9EFB51175728ED009B36A9 /* LoginViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB47175728ED009B36A9 /* LoginViewController_Ipad.xib */; };
+		BA9EFB52175728ED009B36A9 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB49175728ED009B36A9 /* RegistViewController.xib */; };
+		BA9EFB53175728ED009B36A9 /* RegistViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB4A175728ED009B36A9 /* RegistViewController_Ipad.xib */; };
+		BA9EFB54175728ED009B36A9 /* MainNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB4C175728ED009B36A9 /* MainNavViewController.xib */; };
+		BA9EFB55175728ED009B36A9 /* MainNavViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9EFB4D175728ED009B36A9 /* MainNavViewController_Ipad.xib */; };
 		BAA42B5D175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B5C175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m */; };
 		BAA42B6117560260001CA8A8 /* UIView+UIAdaptation.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B6017560260001CA8A8 /* UIView+UIAdaptation.m */; };
 		BAA42B6917560794001CA8A8 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B6817560794001CA8A8 /* LoginViewController.m */; };
 		BAA42B6D175607AA001CA8A8 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA42B6B175607AA001CA8A8 /* RegistViewController.m */; };
-		BAD437161755CFB000063010 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD437141755CFB000063010 /* LoginViewController.xib */; };
-		BAD437171755CFB000063010 /* LoginViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAD437151755CFB000063010 /* LoginViewController_Ipad.xib */; };
 		BADA24AF175450DF0034F8D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADA24AE175450DF0034F8D6 /* AppDelegate.m */; };
 		BAF2DEB71754496C0038C0F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2DEB61754496C0038C0F9 /* UIKit.framework */; };
 		BAF2DEB91754496C0038C0F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF2DEB81754496C0038C0F9 /* Foundation.framework */; };
@@ -26,8 +49,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA34E4261757464300B5A138 /* DeviceShop.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = DeviceShop.db; sourceTree = "<group>"; };
+		BA34E42917574D9700B5A138 /* UIViewController+ShowInfoDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ShowInfoDialog.h"; sourceTree = "<group>"; };
+		BA34E42A17574D9700B5A138 /* UIViewController+ShowInfoDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowInfoDialog.m"; sourceTree = "<group>"; };
+		BA34E42C1757581100B5A138 /* FMDatabaseOperate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseOperate.h; sourceTree = "<group>"; };
+		BA34E42D1757581100B5A138 /* FMDatabaseOperate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseOperate.m; sourceTree = "<group>"; };
+		BA929F121757A109007742B3 /* CloudService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudService.h; sourceTree = "<group>"; };
+		BA929F131757A109007742B3 /* CloudService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudService.m; sourceTree = "<group>"; };
+		BA929F161757AC91007742B3 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		BA929F171757AC91007742B3 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		BA929F181757AC91007742B3 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		BA929F191757AC91007742B3 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		BA929F1A1757AC91007742B3 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		BA929F1B1757AC91007742B3 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		BA929F1C1757AC91007742B3 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		BA929F1D1757AC91007742B3 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		BA929F1E1757AC91007742B3 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		BA929F1F1757AC91007742B3 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		BA929F201757AC91007742B3 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		BA929F211757AC91007742B3 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		BA929F221757AC91007742B3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		BA929F2A1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OAURLEncodingAdditions.h"; sourceTree = "<group>"; };
+		BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OAURLEncodingAdditions.m"; sourceTree = "<group>"; };
 		BA9C7EEC17565AA500640438 /* UIScreen+UIWindowSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+UIWindowSize.h"; sourceTree = "<group>"; };
 		BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+UIWindowSize.m"; sourceTree = "<group>"; };
+		BA9EFB21175704B4009B36A9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BA9EFB22175704B4009B36A9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BA9EFB23175704B4009B36A9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BA9EFB24175704B4009B36A9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BA9EFB25175704B4009B36A9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BA9EFB26175704B4009B36A9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BA9EFB2A175707A7009B36A9 /* ForgetPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPwdViewController.h; sourceTree = "<group>"; };
+		BA9EFB2B175707A8009B36A9 /* ForgetPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPwdViewController.m; sourceTree = "<group>"; };
+		BA9EFB31175708E0009B36A9 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BA9EFB3917572853009B36A9 /* MainNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavViewController.h; sourceTree = "<group>"; };
+		BA9EFB3A17572853009B36A9 /* MainNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavViewController.m; sourceTree = "<group>"; };
+		BA9EFB43175728ED009B36A9 /* ForgetPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPwdViewController.xib; sourceTree = "<group>"; };
+		BA9EFB44175728ED009B36A9 /* ForgetPwdViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgetPwdViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9EFB46175728ED009B36A9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BA9EFB47175728ED009B36A9 /* LoginViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9EFB49175728ED009B36A9 /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		BA9EFB4A175728ED009B36A9 /* RegistViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9EFB4C175728ED009B36A9 /* MainNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainNavViewController.xib; sourceTree = "<group>"; };
+		BA9EFB4D175728ED009B36A9 /* MainNavViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainNavViewController_Ipad.xib; sourceTree = "<group>"; };
 		BAA42B5B175601BC001CA8A8 /* UIViewController+UIViewControllerNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewControllerNib.h"; sourceTree = "<group>"; };
 		BAA42B5C175601BC001CA8A8 /* UIViewController+UIViewControllerNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewControllerNib.m"; sourceTree = "<group>"; };
 		BAA42B5F17560260001CA8A8 /* UIView+UIAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIAdaptation.h"; sourceTree = "<group>"; };
@@ -37,8 +101,6 @@
 		BAA42B6A175607AA001CA8A8 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
 		BAA42B6B175607AA001CA8A8 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 		BAD437051755C9FE00063010 /* ViewControlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControlHeader.h; sourceTree = "<group>"; };
-		BAD437141755CFB000063010 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		BAD437151755CFB000063010 /* LoginViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_Ipad.xib; sourceTree = "<group>"; };
 		BADA24AD175450DF0034F8D6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BADA24AE175450DF0034F8D6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BADA24B2175450E80034F8D6 /* CLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLog.h; sourceTree = "<group>"; };
@@ -61,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9EFB32175708E0009B36A9 /* libsqlite3.0.dylib in Frameworks */,
 				BAF2DEB71754496C0038C0F9 /* UIKit.framework in Frameworks */,
 				BAF2DEB91754496C0038C0F9 /* Foundation.framework in Frameworks */,
 				BAF2DEBB1754496C0038C0F9 /* CoreGraphics.framework in Frameworks */,
@@ -70,6 +133,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA34E4251757464300B5A138 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				BA34E4261757464300B5A138 /* DeviceShop.db */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		BA34E42817574D7600B5A138 /* UIViewController+ShowInfoDialog */ = {
+			isa = PBXGroup;
+			children = (
+				BA34E42917574D9700B5A138 /* UIViewController+ShowInfoDialog.h */,
+				BA34E42A17574D9700B5A138 /* UIViewController+ShowInfoDialog.m */,
+			);
+			path = "UIViewController+ShowInfoDialog";
+			sourceTree = "<group>";
+		};
+		BA929F111757A0F6007742B3 /* CloudService */ = {
+			isa = PBXGroup;
+			children = (
+				BA929F121757A109007742B3 /* CloudService.h */,
+				BA929F131757A109007742B3 /* CloudService.m */,
+			);
+			path = CloudService;
+			sourceTree = "<group>";
+		};
+		BA929F151757AC91007742B3 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BA929F161757AC91007742B3 /* JSON.h */,
+				BA929F171757AC91007742B3 /* NSObject+SBJSON.h */,
+				BA929F181757AC91007742B3 /* NSObject+SBJSON.m */,
+				BA929F191757AC91007742B3 /* NSString+SBJSON.h */,
+				BA929F1A1757AC91007742B3 /* NSString+SBJSON.m */,
+				BA929F1B1757AC91007742B3 /* SBJSON.h */,
+				BA929F1C1757AC91007742B3 /* SBJSON.m */,
+				BA929F1D1757AC91007742B3 /* SBJsonBase.h */,
+				BA929F1E1757AC91007742B3 /* SBJsonBase.m */,
+				BA929F1F1757AC91007742B3 /* SBJsonParser.h */,
+				BA929F201757AC91007742B3 /* SBJsonParser.m */,
+				BA929F211757AC91007742B3 /* SBJsonWriter.h */,
+				BA929F221757AC91007742B3 /* SBJsonWriter.m */,
+			);
+			path = SBJSON;
+			sourceTree = "<group>";
+		};
+		BA929F291757ADDB007742B3 /* NSString+OAURLEncodingAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				BA929F2A1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.h */,
+				BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */,
+			);
+			path = "NSString+OAURLEncodingAdditions";
+			sourceTree = "<group>";
+		};
 		BA9C7EEB17565A8300640438 /* UIScreen+UIWindowSize */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +195,85 @@
 				BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */,
 			);
 			path = "UIScreen+UIWindowSize";
+			sourceTree = "<group>";
+		};
+		BA9EFB20175704B4009B36A9 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB21175704B4009B36A9 /* FMDatabase.h */,
+				BA9EFB22175704B4009B36A9 /* FMDatabase.m */,
+				BA9EFB23175704B4009B36A9 /* FMDatabaseAdditions.h */,
+				BA9EFB24175704B4009B36A9 /* FMDatabaseAdditions.m */,
+				BA34E42C1757581100B5A138 /* FMDatabaseOperate.h */,
+				BA34E42D1757581100B5A138 /* FMDatabaseOperate.m */,
+				BA9EFB25175704B4009B36A9 /* FMResultSet.h */,
+				BA9EFB26175704B4009B36A9 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		BA9EFB3817572837009B36A9 /* MainNavViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB3917572853009B36A9 /* MainNavViewController.h */,
+				BA9EFB3A17572853009B36A9 /* MainNavViewController.m */,
+			);
+			path = MainNavViewController;
+			sourceTree = "<group>";
+		};
+		BA9EFB40175728ED009B36A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB41175728ED009B36A9 /* LoginAndRegistVIew */,
+				BA9EFB4B175728ED009B36A9 /* MainNavView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA9EFB41175728ED009B36A9 /* LoginAndRegistVIew */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB42175728ED009B36A9 /* ForgetPwdView */,
+				BA9EFB45175728ED009B36A9 /* LoginView */,
+				BA9EFB48175728ED009B36A9 /* RegistView */,
+			);
+			path = LoginAndRegistVIew;
+			sourceTree = "<group>";
+		};
+		BA9EFB42175728ED009B36A9 /* ForgetPwdView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB43175728ED009B36A9 /* ForgetPwdViewController.xib */,
+				BA9EFB44175728ED009B36A9 /* ForgetPwdViewController_Ipad.xib */,
+			);
+			path = ForgetPwdView;
+			sourceTree = "<group>";
+		};
+		BA9EFB45175728ED009B36A9 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB46175728ED009B36A9 /* LoginViewController.xib */,
+				BA9EFB47175728ED009B36A9 /* LoginViewController_Ipad.xib */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		BA9EFB48175728ED009B36A9 /* RegistView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB49175728ED009B36A9 /* RegistViewController.xib */,
+				BA9EFB4A175728ED009B36A9 /* RegistViewController_Ipad.xib */,
+			);
+			path = RegistView;
+			sourceTree = "<group>";
+		};
+		BA9EFB4B175728ED009B36A9 /* MainNavView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9EFB4C175728ED009B36A9 /* MainNavViewController.xib */,
+				BA9EFB4D175728ED009B36A9 /* MainNavViewController_Ipad.xib */,
+			);
+			path = MainNavView;
 			sourceTree = "<group>";
 		};
 		BAA42B5A175601BC001CA8A8 /* UIViewController+UIViewControllerNib */ = {
@@ -104,6 +301,8 @@
 				BAA42B6817560794001CA8A8 /* LoginViewController.m */,
 				BAA42B6A175607AA001CA8A8 /* RegistViewController.h */,
 				BAA42B6B175607AA001CA8A8 /* RegistViewController.m */,
+				BA9EFB2A175707A7009B36A9 /* ForgetPwdViewController.h */,
+				BA9EFB2B175707A8009B36A9 /* ForgetPwdViewController.m */,
 			);
 			path = LoginAndRegistViewController;
 			sourceTree = "<group>";
@@ -120,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				BAA42B6617560794001CA8A8 /* LoginAndRegistViewController */,
+				BA9EFB3817572837009B36A9 /* MainNavViewController */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -127,19 +327,10 @@
 		BAD4370D1755CA9F00063010 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BAD437131755CFB000063010 /* LoginView */,
+				BA34E4251757464300B5A138 /* DB */,
+				BA9EFB40175728ED009B36A9 /* View */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		BAD437131755CFB000063010 /* LoginView */ = {
-			isa = PBXGroup;
-			children = (
-				BAD437141755CFB000063010 /* LoginViewController.xib */,
-				BAD437151755CFB000063010 /* LoginViewController_Ipad.xib */,
-			);
-			name = LoginView;
-			path = View/LoginView;
 			sourceTree = "<group>";
 		};
 		BADA24AB175450DF0034F8D6 /* Classes */ = {
@@ -164,10 +355,15 @@
 		BADA24B0175450E80034F8D6 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				BA929F291757ADDB007742B3 /* NSString+OAURLEncodingAdditions */,
+				BA929F111757A0F6007742B3 /* CloudService */,
+				BADA24B1175450E80034F8D6 /* Debug */,
+				BA9EFB20175704B4009B36A9 /* FMDB */,
+				BA929F151757AC91007742B3 /* SBJSON */,
 				BA9C7EEB17565A8300640438 /* UIScreen+UIWindowSize */,
 				BAA42B5E1756023E001CA8A8 /* UIView+UIAdaptation */,
+				BA34E42817574D7600B5A138 /* UIViewController+ShowInfoDialog */,
 				BAA42B5A175601BC001CA8A8 /* UIViewController+UIViewControllerNib */,
-				BADA24B1175450E80034F8D6 /* Debug */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -200,6 +396,7 @@
 		BAF2DEB51754496C0038C0F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA9EFB31175708E0009B36A9 /* libsqlite3.0.dylib */,
 				BAF2DEB61754496C0038C0F9 /* UIKit.framework */,
 				BAF2DEB81754496C0038C0F9 /* Foundation.framework */,
 				BAF2DEBA1754496C0038C0F9 /* CoreGraphics.framework */,
@@ -288,8 +485,15 @@
 				BAF2DEC91754496C0038C0F9 /* Default.png in Resources */,
 				BAF2DECB1754496C0038C0F9 /* Default@2x.png in Resources */,
 				BAF2DECD1754496C0038C0F9 /* Default-568h@2x.png in Resources */,
-				BAD437161755CFB000063010 /* LoginViewController.xib in Resources */,
-				BAD437171755CFB000063010 /* LoginViewController_Ipad.xib in Resources */,
+				BA9EFB4E175728ED009B36A9 /* ForgetPwdViewController.xib in Resources */,
+				BA9EFB4F175728ED009B36A9 /* ForgetPwdViewController_Ipad.xib in Resources */,
+				BA9EFB50175728ED009B36A9 /* LoginViewController.xib in Resources */,
+				BA9EFB51175728ED009B36A9 /* LoginViewController_Ipad.xib in Resources */,
+				BA9EFB52175728ED009B36A9 /* RegistViewController.xib in Resources */,
+				BA9EFB53175728ED009B36A9 /* RegistViewController_Ipad.xib in Resources */,
+				BA9EFB54175728ED009B36A9 /* MainNavViewController.xib in Resources */,
+				BA9EFB55175728ED009B36A9 /* MainNavViewController_Ipad.xib in Resources */,
+				BA34E4271757464300B5A138 /* DeviceShop.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +511,21 @@
 				BAA42B6917560794001CA8A8 /* LoginViewController.m in Sources */,
 				BAA42B6D175607AA001CA8A8 /* RegistViewController.m in Sources */,
 				BA9C7EEE17565AA500640438 /* UIScreen+UIWindowSize.m in Sources */,
+				BA9EFB27175704B4009B36A9 /* FMDatabase.m in Sources */,
+				BA9EFB28175704B4009B36A9 /* FMDatabaseAdditions.m in Sources */,
+				BA9EFB29175704B4009B36A9 /* FMResultSet.m in Sources */,
+				BA9EFB2D175707A8009B36A9 /* ForgetPwdViewController.m in Sources */,
+				BA9EFB3C17572853009B36A9 /* MainNavViewController.m in Sources */,
+				BA34E42B17574D9700B5A138 /* UIViewController+ShowInfoDialog.m in Sources */,
+				BA34E42E1757581200B5A138 /* FMDatabaseOperate.m in Sources */,
+				BA929F141757A109007742B3 /* CloudService.m in Sources */,
+				BA929F231757AC91007742B3 /* NSObject+SBJSON.m in Sources */,
+				BA929F241757AC91007742B3 /* NSString+SBJSON.m in Sources */,
+				BA929F251757AC91007742B3 /* SBJSON.m in Sources */,
+				BA929F261757AC91007742B3 /* SBJsonBase.m in Sources */,
+				BA929F271757AC91007742B3 /* SBJsonParser.m in Sources */,
+				BA929F281757AC91007742B3 /* SBJsonWriter.m in Sources */,
+				BA929F2C1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

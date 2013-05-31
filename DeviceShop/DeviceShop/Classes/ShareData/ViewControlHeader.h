@@ -12,14 +12,31 @@
 /**
  * Public Headers
  **/
+#import "CloudService.h"
+#import "FMDatabaseOperate.h"
 #import "LoginViewController.h"
 #import "RegistViewController.h"
-
+#import "MainNavViewController.h"
+#import "ForgetPwdViewController.h"
+#import "UIViewController+ShowInfoDialog.h"
 
 /**
  * Public Macro
  **/
 #define DEBUG_PREFIX    @"****DEBUG_UI****:"
 
+#define LAUNCHERED      @"LAUNCHERED"
+
+//Database Name
+#define DB_NAME         @"DeviceShop"
+
+#define USER_NAME       @"USER_NAME"
+
+/**
+ * Result Status
+ **/
+#define SUCCESSED       1
+
+#define FAILED          0
 
 #endif

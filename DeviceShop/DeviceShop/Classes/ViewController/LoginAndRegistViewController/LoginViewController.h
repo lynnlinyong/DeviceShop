@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoginViewController : UIViewController<UITextFieldDelegate>
+@interface LoginViewController : UIViewController <
+                                                   UITextFieldDelegate,
+                                                   CloudServiceDelegate>
+{
+    CloudService    *cs;
+}
+
+@property (nonatomic, retain) UITextField *pwdFld;
+@property (nonatomic, retain) UITextField *emailFld;
 
 @end

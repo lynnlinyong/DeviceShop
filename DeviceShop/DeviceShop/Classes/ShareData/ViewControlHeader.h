@@ -12,10 +12,15 @@
 /**
  * Public Headers
  **/
+#import "PortViewController.h"
+#import "EditViewController.h"
 #import "LoginViewController.h"
 #import "RegistViewController.h"
+#import "SettingViewController.h"
 #import "MainNavViewController.h"
 #import "ForgetPwdViewController.h"
+#import "DeviceLibraryViewController.h"
+#import "NetworkDeviceViewController.h"
 #import "UIViewController+ShowInfoDialog.h"
 
 /**

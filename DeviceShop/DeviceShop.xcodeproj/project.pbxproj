@@ -20,6 +20,25 @@
 		BA929F271757AC91007742B3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F201757AC91007742B3 /* SBJsonParser.m */; };
 		BA929F281757AC91007742B3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F221757AC91007742B3 /* SBJsonWriter.m */; };
 		BA929F2C1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */; };
+		BA95115E175B851000323AEC /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA95115C175B851000323AEC /* HelpViewController.m */; };
+		BA951165175B85B400323AEC /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951163175B85B300323AEC /* HelpViewController.xib */; };
+		BA951166175B85B400323AEC /* HelpViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951164175B85B300323AEC /* HelpViewController_Ipad.xib */; };
+		BA95116A175B88D000323AEC /* ChangBackgroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951168175B88D000323AEC /* ChangBackgroupViewController.m */; };
+		BA951173175B90FB00323AEC /* ChangBackgroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951171175B90FB00323AEC /* ChangBackgroupViewController.xib */; };
+		BA951174175B90FB00323AEC /* ChangBackgroupViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951172175B90FB00323AEC /* ChangBackgroupViewController_Ipad.xib */; };
+		BA951178175B91E800323AEC /* RecoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951176175B91E800323AEC /* RecoverViewController.m */; };
+		BA951182175B923300323AEC /* ChangBackgroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA95117D175B923300323AEC /* ChangBackgroupViewController.xib */; };
+		BA951183175B923300323AEC /* ChangBackgroupViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA95117E175B923300323AEC /* ChangBackgroupViewController_Ipad.xib */; };
+		BA951184175B923300323AEC /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951180175B923300323AEC /* HelpViewController.xib */; };
+		BA951185175B923300323AEC /* HelpViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951181175B923300323AEC /* HelpViewController_Ipad.xib */; };
+		BA951189175B926000323AEC /* RecoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951187175B926000323AEC /* RecoverViewController.xib */; };
+		BA95118A175B926000323AEC /* RecoverViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951188175B926000323AEC /* RecoverViewController_Ipad.xib */; };
+		BA95118E175B927400323AEC /* BackUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA95118C175B927100323AEC /* BackUpViewController.m */; };
+		BA951195175B92D900323AEC /* BackUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951193175B92D900323AEC /* BackUpViewController.xib */; };
+		BA951196175B92D900323AEC /* BackUpViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA951194175B92D900323AEC /* BackUpViewController_Ipad.xib */; };
+		BA95119A175B92F900323AEC /* ShareManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA951198175B92F900323AEC /* ShareManagerViewController.m */; };
+		BA9511A1175B95BB00323AEC /* ShareManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA95119F175B95BB00323AEC /* ShareManagerViewController.xib */; };
+		BA9511A2175B95BB00323AEC /* ShareManagerViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9511A0175B95BB00323AEC /* ShareManagerViewController_Ipad.xib */; };
 		BA9BCE2A175AFD7B00897B22 /* MenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE29175AFD7B00897B22 /* MenuBar.m */; };
 		BA9BCE2F175B2FF600897B22 /* DeviceLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE2D175B2FF600897B22 /* DeviceLibraryViewController.m */; };
 		BA9BCE36175B310900897B22 /* DeviceLibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE34175B310900897B22 /* DeviceLibraryViewController.xib */; };
@@ -33,6 +52,9 @@
 		BA9BCE56175B33FC00897B22 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE54175B33FC00897B22 /* SettingViewController.m */; };
 		BA9BCE5D175B347500897B22 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE5B175B347500897B22 /* SettingViewController.xib */; };
 		BA9BCE5E175B347500897B22 /* SettingViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE5C175B347500897B22 /* SettingViewController_Ipad.xib */; };
+		BA9BCE62175B47F300897B22 /* PortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE60175B47F200897B22 /* PortViewController.m */; };
+		BA9BCE68175B486E00897B22 /* PortViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE66175B486E00897B22 /* PortViewController_Ipad.xib */; };
+		BA9BCE69175B486E00897B22 /* PortViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE67175B486E00897B22 /* PortViewController.xib */; };
 		BA9C7EEE17565AA500640438 /* UIScreen+UIWindowSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */; };
 		BA9EFB27175704B4009B36A9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB22175704B4009B36A9 /* FMDatabase.m */; };
 		BA9EFB28175704B4009B36A9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB24175704B4009B36A9 /* FMDatabaseAdditions.m */; };
@@ -89,6 +111,30 @@
 		BA929F221757AC91007742B3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		BA929F2A1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OAURLEncodingAdditions.h"; sourceTree = "<group>"; };
 		BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OAURLEncodingAdditions.m"; sourceTree = "<group>"; };
+		BA95115B175B851000323AEC /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		BA95115C175B851000323AEC /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		BA951163175B85B300323AEC /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		BA951164175B85B300323AEC /* HelpViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA951167175B88D000323AEC /* ChangBackgroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangBackgroupViewController.h; sourceTree = "<group>"; };
+		BA951168175B88D000323AEC /* ChangBackgroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangBackgroupViewController.m; sourceTree = "<group>"; };
+		BA951171175B90FB00323AEC /* ChangBackgroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangBackgroupViewController.xib; sourceTree = "<group>"; };
+		BA951172175B90FB00323AEC /* ChangBackgroupViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangBackgroupViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA951175175B91E800323AEC /* RecoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecoverViewController.h; sourceTree = "<group>"; };
+		BA951176175B91E800323AEC /* RecoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecoverViewController.m; sourceTree = "<group>"; };
+		BA95117D175B923300323AEC /* ChangBackgroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangBackgroupViewController.xib; sourceTree = "<group>"; };
+		BA95117E175B923300323AEC /* ChangBackgroupViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangBackgroupViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA951180175B923300323AEC /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		BA951181175B923300323AEC /* HelpViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA951187175B926000323AEC /* RecoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecoverViewController.xib; sourceTree = "<group>"; };
+		BA951188175B926000323AEC /* RecoverViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecoverViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA95118B175B927000323AEC /* BackUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackUpViewController.h; sourceTree = "<group>"; };
+		BA95118C175B927100323AEC /* BackUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackUpViewController.m; sourceTree = "<group>"; };
+		BA951193175B92D900323AEC /* BackUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackUpViewController.xib; sourceTree = "<group>"; };
+		BA951194175B92D900323AEC /* BackUpViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackUpViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA951197175B92F900323AEC /* ShareManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareManagerViewController.h; sourceTree = "<group>"; };
+		BA951198175B92F900323AEC /* ShareManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareManagerViewController.m; sourceTree = "<group>"; };
+		BA95119F175B95BB00323AEC /* ShareManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareManagerViewController.xib; sourceTree = "<group>"; };
+		BA9511A0175B95BB00323AEC /* ShareManagerViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareManagerViewController_Ipad.xib; sourceTree = "<group>"; };
 		BA9BCE28175AFD7B00897B22 /* MenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBar.h; sourceTree = "<group>"; };
 		BA9BCE29175AFD7B00897B22 /* MenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBar.m; sourceTree = "<group>"; };
 		BA9BCE2C175B2FF600897B22 /* DeviceLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceLibraryViewController.h; sourceTree = "<group>"; };
@@ -107,6 +153,10 @@
 		BA9BCE54175B33FC00897B22 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		BA9BCE5B175B347500897B22 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
 		BA9BCE5C175B347500897B22 /* SettingViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9BCE5F175B47F200897B22 /* PortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortViewController.h; sourceTree = "<group>"; };
+		BA9BCE60175B47F200897B22 /* PortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortViewController.m; sourceTree = "<group>"; };
+		BA9BCE66175B486E00897B22 /* PortViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9BCE67175B486E00897B22 /* PortViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortViewController.xib; sourceTree = "<group>"; };
 		BA9C7EEC17565AA500640438 /* UIScreen+UIWindowSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+UIWindowSize.h"; sourceTree = "<group>"; };
 		BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+UIWindowSize.m"; sourceTree = "<group>"; };
 		BA9EFB21175704B4009B36A9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -234,6 +284,71 @@
 			path = "NSString+OAURLEncodingAdditions";
 			sourceTree = "<group>";
 		};
+		BA951162175B85B300323AEC /* HelpView */ = {
+			isa = PBXGroup;
+			children = (
+				BA951163175B85B300323AEC /* HelpViewController.xib */,
+				BA951164175B85B300323AEC /* HelpViewController_Ipad.xib */,
+			);
+			name = HelpView;
+			path = SettingView/HelpView;
+			sourceTree = "<group>";
+		};
+		BA951170175B90FB00323AEC /* ChangBackgroupView */ = {
+			isa = PBXGroup;
+			children = (
+				BA951171175B90FB00323AEC /* ChangBackgroupViewController.xib */,
+				BA951172175B90FB00323AEC /* ChangBackgroupViewController_Ipad.xib */,
+			);
+			name = ChangBackgroupView;
+			path = SettingView/ChangBackgroupView;
+			sourceTree = "<group>";
+		};
+		BA95117C175B923300323AEC /* ChangBackgroupView */ = {
+			isa = PBXGroup;
+			children = (
+				BA95117D175B923300323AEC /* ChangBackgroupViewController.xib */,
+				BA95117E175B923300323AEC /* ChangBackgroupViewController_Ipad.xib */,
+			);
+			path = ChangBackgroupView;
+			sourceTree = "<group>";
+		};
+		BA95117F175B923300323AEC /* HelpView */ = {
+			isa = PBXGroup;
+			children = (
+				BA951180175B923300323AEC /* HelpViewController.xib */,
+				BA951181175B923300323AEC /* HelpViewController_Ipad.xib */,
+			);
+			path = HelpView;
+			sourceTree = "<group>";
+		};
+		BA951186175B926000323AEC /* RecoverView */ = {
+			isa = PBXGroup;
+			children = (
+				BA951187175B926000323AEC /* RecoverViewController.xib */,
+				BA951188175B926000323AEC /* RecoverViewController_Ipad.xib */,
+			);
+			path = RecoverView;
+			sourceTree = "<group>";
+		};
+		BA951192175B92D900323AEC /* BackUpView */ = {
+			isa = PBXGroup;
+			children = (
+				BA951193175B92D900323AEC /* BackUpViewController.xib */,
+				BA951194175B92D900323AEC /* BackUpViewController_Ipad.xib */,
+			);
+			path = BackUpView;
+			sourceTree = "<group>";
+		};
+		BA95119E175B95BB00323AEC /* ShareManagerView */ = {
+			isa = PBXGroup;
+			children = (
+				BA95119F175B95BB00323AEC /* ShareManagerViewController.xib */,
+				BA9511A0175B95BB00323AEC /* ShareManagerViewController_Ipad.xib */,
+			);
+			path = ShareManagerView;
+			sourceTree = "<group>";
+		};
 		BA9BCE27175AFD5400897B22 /* MenuBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +399,8 @@
 			children = (
 				BA9BCE46175B32FE00897B22 /* NetworkDeviceViewController.h */,
 				BA9BCE47175B32FE00897B22 /* NetworkDeviceViewController.m */,
+				BA9BCE5F175B47F200897B22 /* PortViewController.h */,
+				BA9BCE60175B47F200897B22 /* PortViewController.m */,
 			);
 			path = NetworkDeviceViewController;
 			sourceTree = "<group>";
@@ -293,6 +410,8 @@
 			children = (
 				BA9BCE4E175B335C00897B22 /* NetworkDeviceViewController.xib */,
 				BA9BCE4F175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib */,
+				BA9BCE67175B486E00897B22 /* PortViewController.xib */,
+				BA9BCE66175B486E00897B22 /* PortViewController_Ipad.xib */,
 			);
 			path = NetworkDeviceView;
 			sourceTree = "<group>";
@@ -302,6 +421,16 @@
 			children = (
 				BA9BCE53175B33FC00897B22 /* SettingViewController.h */,
 				BA9BCE54175B33FC00897B22 /* SettingViewController.m */,
+				BA95115B175B851000323AEC /* HelpViewController.h */,
+				BA95115C175B851000323AEC /* HelpViewController.m */,
+				BA951167175B88D000323AEC /* ChangBackgroupViewController.h */,
+				BA951168175B88D000323AEC /* ChangBackgroupViewController.m */,
+				BA951175175B91E800323AEC /* RecoverViewController.h */,
+				BA951176175B91E800323AEC /* RecoverViewController.m */,
+				BA95118B175B927000323AEC /* BackUpViewController.h */,
+				BA95118C175B927100323AEC /* BackUpViewController.m */,
+				BA951197175B92F900323AEC /* ShareManagerViewController.h */,
+				BA951198175B92F900323AEC /* ShareManagerViewController.m */,
 			);
 			path = SettingViewController;
 			sourceTree = "<group>";
@@ -311,6 +440,11 @@
 			children = (
 				BA9BCE5B175B347500897B22 /* SettingViewController.xib */,
 				BA9BCE5C175B347500897B22 /* SettingViewController_Ipad.xib */,
+				BA951192175B92D900323AEC /* BackUpView */,
+				BA95117C175B923300323AEC /* ChangBackgroupView */,
+				BA95117F175B923300323AEC /* HelpView */,
+				BA951186175B926000323AEC /* RecoverView */,
+				BA95119E175B95BB00323AEC /* ShareManagerView */,
 			);
 			path = SettingView;
 			sourceTree = "<group>";
@@ -351,8 +485,10 @@
 		BA9EFB40175728ED009B36A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA951170175B90FB00323AEC /* ChangBackgroupView */,
 				BA9BCE33175B310900897B22 /* DeviceLibraryView */,
 				BA9BCE40175B328B00897B22 /* EditView */,
+				BA951162175B85B300323AEC /* HelpView */,
 				BA9EFB41175728ED009B36A9 /* LoginAndRegistVIew */,
 				BA9EFB4B175728ED009B36A9 /* MainNavView */,
 				BA9BCE4D175B335C00897B22 /* NetworkDeviceView */,
@@ -640,6 +776,22 @@
 				BA9BCE51175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib in Resources */,
 				BA9BCE5D175B347500897B22 /* SettingViewController.xib in Resources */,
 				BA9BCE5E175B347500897B22 /* SettingViewController_Ipad.xib in Resources */,
+				BA9BCE68175B486E00897B22 /* PortViewController_Ipad.xib in Resources */,
+				BA9BCE69175B486E00897B22 /* PortViewController.xib in Resources */,
+				BA951165175B85B400323AEC /* HelpViewController.xib in Resources */,
+				BA951166175B85B400323AEC /* HelpViewController_Ipad.xib in Resources */,
+				BA951173175B90FB00323AEC /* ChangBackgroupViewController.xib in Resources */,
+				BA951174175B90FB00323AEC /* ChangBackgroupViewController_Ipad.xib in Resources */,
+				BA951182175B923300323AEC /* ChangBackgroupViewController.xib in Resources */,
+				BA951183175B923300323AEC /* ChangBackgroupViewController_Ipad.xib in Resources */,
+				BA951184175B923300323AEC /* HelpViewController.xib in Resources */,
+				BA951185175B923300323AEC /* HelpViewController_Ipad.xib in Resources */,
+				BA951189175B926000323AEC /* RecoverViewController.xib in Resources */,
+				BA95118A175B926000323AEC /* RecoverViewController_Ipad.xib in Resources */,
+				BA951195175B92D900323AEC /* BackUpViewController.xib in Resources */,
+				BA951196175B92D900323AEC /* BackUpViewController_Ipad.xib in Resources */,
+				BA9511A1175B95BB00323AEC /* ShareManagerViewController.xib in Resources */,
+				BA9511A2175B95BB00323AEC /* ShareManagerViewController_Ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +830,12 @@
 				BA9BCE3C175B318500897B22 /* EditViewController.m in Sources */,
 				BA9BCE49175B32FE00897B22 /* NetworkDeviceViewController.m in Sources */,
 				BA9BCE56175B33FC00897B22 /* SettingViewController.m in Sources */,
+				BA9BCE62175B47F300897B22 /* PortViewController.m in Sources */,
+				BA95115E175B851000323AEC /* HelpViewController.m in Sources */,
+				BA95116A175B88D000323AEC /* ChangBackgroupViewController.m in Sources */,
+				BA951178175B91E800323AEC /* RecoverViewController.m in Sources */,
+				BA95118E175B927400323AEC /* BackUpViewController.m in Sources */,
+				BA95119A175B92F900323AEC /* ShareManagerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

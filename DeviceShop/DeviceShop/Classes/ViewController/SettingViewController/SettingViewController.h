@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingViewController : UIViewController
+@interface SettingViewController : UIViewController<
+                                                    MenuBarDelegate,
+                                                    UITableViewDelegate,
+                                                    UITableViewDataSource>
+{
+    UITableView  *setTab;
+    MenuBar      *mb;
+}
 
 @end

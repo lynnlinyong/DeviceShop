@@ -1,18 +1,18 @@
 //
-//  NetworkDeviceViewController.m
+//  PortViewController.m
 //  DeviceShop
 //
 //  Created by lynn on 13-6-2.
 //  Copyright (c) 2013年 lynn. All rights reserved.
 //
 
-#import "NetworkDeviceViewController.h"
+#import "PortViewController.h"
 
-@interface NetworkDeviceViewController ()
+@interface PortViewController ()
 
 @end
 
-@implementation NetworkDeviceViewController
+@implementation PortViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,16 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @"网络设备";
     
     //初始化UI
     [self initUI];
-}
-
-- (void) viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBarHidden = NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,17 +39,14 @@
 
 - (void) viewDidUnload
 {
-    networkDevTab.delegate   = nil;
-    networkDevTab.dataSource = nil;
+    portTab.delegate   = nil;
+    portTab.dataSource = nil;
     [super viewDidUnload];
 }
 
 - (void) dealloc
 {
-    [devListArray removeAllObjects];
-    [devListArray release];
-    
-    [networkDevTab release];
+    [portTab release];
     [super dealloc];
 }
 
@@ -64,21 +54,22 @@
 #pragma mark - Custom Action
 - (void) initUI
 {
-    devListArray  = [[NSMutableArray alloc]init];
-    [devListArray addObject:@"网络设备1"];
-    [devListArray addObject:@"网络设备2"];
-    [devListArray addObject:@"网络设备3"];
-    [devListArray addObject:@"网络设备4"];
-    [devListArray addObject:@"网络设备5"];
-    [devListArray addObject:@"网络设备6"];
-    [devListArray addObject:@"网络设备7"];
+    portListArray = [[NSMutableArray alloc]init];
+    [portListArray addObject:@"端口1"];
+    [portListArray addObject:@"端口2"];
+    [portListArray addObject:@"端口3"];
+    [portListArray addObject:@"端口4"];
+    [portListArray addObject:@"端口5"];
+    [portListArray addObject:@"端口6"];
+    [portListArray addObject:@"端口7"];
     
-    networkDevTab = [[UITableView alloc]init];
-    networkDevTab.delegate   = self;
-    networkDevTab.dataSource = self;
-    networkDevTab.frame      = [UIView fitCGRect:CGRectMake(0, 0, 320, 420)];
-    [self.view addSubview:networkDevTab];
+    portTab = [[UITableView alloc]init];
+    portTab.delegate   = self;
+    portTab.dataSource = self;
+    portTab.frame = [UIView fitCGRect:CGRectMake(0, 0, 320, 420)];
+    [self.view addSubview:portTab];
 }
+
 
 #pragma mark 
 #pragma mark - UITableViewDelegate and UITableViewDataSource
@@ -89,41 +80,38 @@
 
 - (int) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return devListArray.count;
+    return portListArray.count;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UILabel  *titleLab  = nil;
-    NSString *idString  = @"idString";
+    UILabel  *titleLab    = nil;
+    NSString *idString    = @"idString";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:idString];
     if (!cell)
     {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault
                                      reuseIdentifier:idString];
+        
         titleLab = [[UILabel alloc]init];
         titleLab.frame    = [UIView fitCGRect:CGRectMake(0, 12,
                                                          cell.frame.size.width, 20)];
         titleLab.backgroundColor = [UIColor clearColor];
         titleLab.textAlignment   = UITextAlignmentCenter;
         [cell addSubview:titleLab];
-        
     }
     
-    NSString *devName = [devListArray objectAtIndex:indexPath.row];
-    titleLab.text     = devName;
+    NSString *portName = [portListArray objectAtIndex:indexPath.row];
+    titleLab.text      = portName;
     [titleLab release];
     
     return cell;
 }
 
+
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    PortViewController *pVc = [PortViewController createViewController:[PortViewController class]];
-    pVc.title = [devListArray objectAtIndex:indexPath.row];
-    [self.navigationController pushViewController:pVc
-                                         animated:YES];
 }
 @end

@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NetworkDeviceViewController : UIViewController
-
+@interface NetworkDeviceViewController : UIViewController<
+                                                        UITableViewDelegate,
+                                                        UITableViewDataSource>
+{
+    UITableView     *networkDevTab;
+    NSMutableArray  *devListArray;
+}
 @end

@@ -34,6 +34,9 @@
         
         devLibBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
         devLibBtn.tag   = 1;
+        [devLibBtn addTarget:self
+                      action:@selector(doButtonClicked:)
+            forControlEvents:UIControlEventTouchUpInside];
         devLibBtn.frame = CGRectMake(10*2+width/7, height/3, width/7, height*2/3);
         [devLibBtn setTitle:@"设备库"
                    forState:UIControlStateNormal];
@@ -80,15 +83,6 @@
     }
     return self;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 #pragma mark 
 #pragma mark - Custom Action

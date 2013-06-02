@@ -54,6 +54,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    
+    self.navigationController.navigationBarHidden = YES;
+}
+
 #pragma mark 
 #pragma mark - Custom Action
 - (void) initUI
@@ -113,31 +120,41 @@
     {
         case 0:             //首页
         {
-            CLog(@"MainView");
             break;
         }
         case 1:             //设备库
         {
-            CLog(@"devLib");
+            DeviceLibraryViewController *dlVc = [UIViewController createViewController:[DeviceLibraryViewController class]];
+            [self.navigationController pushViewController:dlVc
+                                                 animated:YES];
             break;
         }
         case 2:             //编辑
         {
-            CLog(@"Edit");
+            EditViewController *eVc = [EditViewController createViewController:[EditViewController class]];
+            [self.navigationController pushViewController:eVc
+                                                 animated:YES];
             break;
         }
         case 3:             //网络设置
         {
-            CLog(@"network setting");
+            NetworkDeviceViewController *ndVc = [NetworkDeviceViewController createViewController:[NetworkDeviceViewController class]];
+            [self.navigationController pushViewController:ndVc
+                                                 animated:YES];
             break;
         }
         case 4:             //设置
         {
-            CLog(@"setting");
+            SettingViewController *sVc = [SettingViewController createViewController:[SettingViewController class]];
+            [self.navigationController pushViewController:sVc
+                                                 animated:YES];
             break;
         }
         default:
+        {
+            CLog(@"ERROR:Func:%s, Line:%d", __func__, __LINE__);
             break;
+        }
     }
 }
 @end

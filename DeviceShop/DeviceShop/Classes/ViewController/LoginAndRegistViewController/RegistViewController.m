@@ -54,13 +54,12 @@
     self.navigationController.navigationBarHidden = NO;
 }
 
-- (void) viewDidDisappear:(BOOL)animated
+- (void) viewDidUnload
 {
     pwdFld.delegate   = nil;
     emailFld.delegate = nil;
     rePwdFld.delegate = nil;
-    
-    [super viewDidDisappear:animated];
+    [super viewDidUnload];
 }
 
 - (void) dealloc

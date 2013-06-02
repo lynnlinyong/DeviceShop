@@ -10,6 +10,8 @@
 		BA34E4271757464300B5A138 /* DeviceShop.db in Resources */ = {isa = PBXBuildFile; fileRef = BA34E4261757464300B5A138 /* DeviceShop.db */; };
 		BA34E42B17574D9700B5A138 /* UIViewController+ShowInfoDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34E42A17574D9700B5A138 /* UIViewController+ShowInfoDialog.m */; };
 		BA34E42E1757581200B5A138 /* FMDatabaseOperate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA34E42D1757581100B5A138 /* FMDatabaseOperate.m */; };
+		BA900A3E1758FFAD00FE5814 /* BJGridItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BA900A3D1758FFAD00FE5814 /* BJGridItem.m */; };
+		BA900A40175901AB00FE5814 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA900A3F175901AB00FE5814 /* QuartzCore.framework */; };
 		BA929F141757A109007742B3 /* CloudService.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F131757A109007742B3 /* CloudService.m */; };
 		BA929F231757AC91007742B3 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F181757AC91007742B3 /* NSObject+SBJSON.m */; };
 		BA929F241757AC91007742B3 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F1A1757AC91007742B3 /* NSString+SBJSON.m */; };
@@ -18,6 +20,19 @@
 		BA929F271757AC91007742B3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F201757AC91007742B3 /* SBJsonParser.m */; };
 		BA929F281757AC91007742B3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F221757AC91007742B3 /* SBJsonWriter.m */; };
 		BA929F2C1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */; };
+		BA9BCE2A175AFD7B00897B22 /* MenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE29175AFD7B00897B22 /* MenuBar.m */; };
+		BA9BCE2F175B2FF600897B22 /* DeviceLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE2D175B2FF600897B22 /* DeviceLibraryViewController.m */; };
+		BA9BCE36175B310900897B22 /* DeviceLibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE34175B310900897B22 /* DeviceLibraryViewController.xib */; };
+		BA9BCE37175B310900897B22 /* DeviceLibraryViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE35175B310900897B22 /* DeviceLibraryViewController_Ipad.xib */; };
+		BA9BCE3C175B318500897B22 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE3A175B318500897B22 /* EditViewController.m */; };
+		BA9BCE43175B328B00897B22 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE41175B328B00897B22 /* EditViewController.xib */; };
+		BA9BCE44175B328B00897B22 /* EditViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE42175B328B00897B22 /* EditViewController_Ipad.xib */; };
+		BA9BCE49175B32FE00897B22 /* NetworkDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE47175B32FE00897B22 /* NetworkDeviceViewController.m */; };
+		BA9BCE50175B335C00897B22 /* NetworkDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE4E175B335C00897B22 /* NetworkDeviceViewController.xib */; };
+		BA9BCE51175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE4F175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib */; };
+		BA9BCE56175B33FC00897B22 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9BCE54175B33FC00897B22 /* SettingViewController.m */; };
+		BA9BCE5D175B347500897B22 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE5B175B347500897B22 /* SettingViewController.xib */; };
+		BA9BCE5E175B347500897B22 /* SettingViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9BCE5C175B347500897B22 /* SettingViewController_Ipad.xib */; };
 		BA9C7EEE17565AA500640438 /* UIScreen+UIWindowSize.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */; };
 		BA9EFB27175704B4009B36A9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB22175704B4009B36A9 /* FMDatabase.m */; };
 		BA9EFB28175704B4009B36A9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EFB24175704B4009B36A9 /* FMDatabaseAdditions.m */; };
@@ -54,6 +69,9 @@
 		BA34E42A17574D9700B5A138 /* UIViewController+ShowInfoDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ShowInfoDialog.m"; sourceTree = "<group>"; };
 		BA34E42C1757581100B5A138 /* FMDatabaseOperate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseOperate.h; sourceTree = "<group>"; };
 		BA34E42D1757581100B5A138 /* FMDatabaseOperate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseOperate.m; sourceTree = "<group>"; };
+		BA900A3C1758FFAD00FE5814 /* BJGridItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJGridItem.h; sourceTree = "<group>"; };
+		BA900A3D1758FFAD00FE5814 /* BJGridItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJGridItem.m; sourceTree = "<group>"; };
+		BA900A3F175901AB00FE5814 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BA929F121757A109007742B3 /* CloudService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudService.h; sourceTree = "<group>"; };
 		BA929F131757A109007742B3 /* CloudService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudService.m; sourceTree = "<group>"; };
 		BA929F161757AC91007742B3 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
@@ -71,6 +89,24 @@
 		BA929F221757AC91007742B3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		BA929F2A1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OAURLEncodingAdditions.h"; sourceTree = "<group>"; };
 		BA929F2B1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OAURLEncodingAdditions.m"; sourceTree = "<group>"; };
+		BA9BCE28175AFD7B00897B22 /* MenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuBar.h; sourceTree = "<group>"; };
+		BA9BCE29175AFD7B00897B22 /* MenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuBar.m; sourceTree = "<group>"; };
+		BA9BCE2C175B2FF600897B22 /* DeviceLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceLibraryViewController.h; sourceTree = "<group>"; };
+		BA9BCE2D175B2FF600897B22 /* DeviceLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceLibraryViewController.m; sourceTree = "<group>"; };
+		BA9BCE34175B310900897B22 /* DeviceLibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceLibraryViewController.xib; sourceTree = "<group>"; };
+		BA9BCE35175B310900897B22 /* DeviceLibraryViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceLibraryViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9BCE39175B318500897B22 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		BA9BCE3A175B318500897B22 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		BA9BCE41175B328B00897B22 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		BA9BCE42175B328B00897B22 /* EditViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9BCE46175B32FE00897B22 /* NetworkDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDeviceViewController.h; sourceTree = "<group>"; };
+		BA9BCE47175B32FE00897B22 /* NetworkDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDeviceViewController.m; sourceTree = "<group>"; };
+		BA9BCE4E175B335C00897B22 /* NetworkDeviceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkDeviceViewController.xib; sourceTree = "<group>"; };
+		BA9BCE4F175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkDeviceViewController_Ipad.xib; sourceTree = "<group>"; };
+		BA9BCE53175B33FC00897B22 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		BA9BCE54175B33FC00897B22 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		BA9BCE5B175B347500897B22 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		BA9BCE5C175B347500897B22 /* SettingViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController_Ipad.xib; sourceTree = "<group>"; };
 		BA9C7EEC17565AA500640438 /* UIScreen+UIWindowSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+UIWindowSize.h"; sourceTree = "<group>"; };
 		BA9C7EED17565AA500640438 /* UIScreen+UIWindowSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+UIWindowSize.m"; sourceTree = "<group>"; };
 		BA9EFB21175704B4009B36A9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -123,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA900A40175901AB00FE5814 /* QuartzCore.framework in Frameworks */,
 				BA9EFB32175708E0009B36A9 /* libsqlite3.0.dylib in Frameworks */,
 				BAF2DEB71754496C0038C0F9 /* UIKit.framework in Frameworks */,
 				BAF2DEB91754496C0038C0F9 /* Foundation.framework in Frameworks */,
@@ -148,6 +185,15 @@
 				BA34E42A17574D9700B5A138 /* UIViewController+ShowInfoDialog.m */,
 			);
 			path = "UIViewController+ShowInfoDialog";
+			sourceTree = "<group>";
+		};
+		BA900A3B1758FFAD00FE5814 /* BJGridItem */ = {
+			isa = PBXGroup;
+			children = (
+				BA900A3C1758FFAD00FE5814 /* BJGridItem.h */,
+				BA900A3D1758FFAD00FE5814 /* BJGridItem.m */,
+			);
+			path = BJGridItem;
 			sourceTree = "<group>";
 		};
 		BA929F111757A0F6007742B3 /* CloudService */ = {
@@ -188,6 +234,87 @@
 			path = "NSString+OAURLEncodingAdditions";
 			sourceTree = "<group>";
 		};
+		BA9BCE27175AFD5400897B22 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE28175AFD7B00897B22 /* MenuBar.h */,
+				BA9BCE29175AFD7B00897B22 /* MenuBar.m */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		BA9BCE2B175B2FDD00897B22 /* DeviceLibraryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE2C175B2FF600897B22 /* DeviceLibraryViewController.h */,
+				BA9BCE2D175B2FF600897B22 /* DeviceLibraryViewController.m */,
+			);
+			path = DeviceLibraryViewController;
+			sourceTree = "<group>";
+		};
+		BA9BCE33175B310900897B22 /* DeviceLibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE34175B310900897B22 /* DeviceLibraryViewController.xib */,
+				BA9BCE35175B310900897B22 /* DeviceLibraryViewController_Ipad.xib */,
+			);
+			path = DeviceLibraryView;
+			sourceTree = "<group>";
+		};
+		BA9BCE38175B314500897B22 /* EditViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE39175B318500897B22 /* EditViewController.h */,
+				BA9BCE3A175B318500897B22 /* EditViewController.m */,
+			);
+			path = EditViewController;
+			sourceTree = "<group>";
+		};
+		BA9BCE40175B328B00897B22 /* EditView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE41175B328B00897B22 /* EditViewController.xib */,
+				BA9BCE42175B328B00897B22 /* EditViewController_Ipad.xib */,
+			);
+			path = EditView;
+			sourceTree = "<group>";
+		};
+		BA9BCE45175B32EC00897B22 /* NetworkDeviceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE46175B32FE00897B22 /* NetworkDeviceViewController.h */,
+				BA9BCE47175B32FE00897B22 /* NetworkDeviceViewController.m */,
+			);
+			path = NetworkDeviceViewController;
+			sourceTree = "<group>";
+		};
+		BA9BCE4D175B335C00897B22 /* NetworkDeviceView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE4E175B335C00897B22 /* NetworkDeviceViewController.xib */,
+				BA9BCE4F175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib */,
+			);
+			path = NetworkDeviceView;
+			sourceTree = "<group>";
+		};
+		BA9BCE52175B33EA00897B22 /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE53175B33FC00897B22 /* SettingViewController.h */,
+				BA9BCE54175B33FC00897B22 /* SettingViewController.m */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
+		BA9BCE5A175B347500897B22 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				BA9BCE5B175B347500897B22 /* SettingViewController.xib */,
+				BA9BCE5C175B347500897B22 /* SettingViewController_Ipad.xib */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
 		BA9C7EEB17565A8300640438 /* UIScreen+UIWindowSize */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,8 +351,12 @@
 		BA9EFB40175728ED009B36A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BCE33175B310900897B22 /* DeviceLibraryView */,
+				BA9BCE40175B328B00897B22 /* EditView */,
 				BA9EFB41175728ED009B36A9 /* LoginAndRegistVIew */,
 				BA9EFB4B175728ED009B36A9 /* MainNavView */,
+				BA9BCE4D175B335C00897B22 /* NetworkDeviceView */,
+				BA9BCE5A175B347500897B22 /* SettingView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,8 +449,12 @@
 		BAD437061755CA0300063010 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BA9BCE2B175B2FDD00897B22 /* DeviceLibraryViewController */,
+				BA9BCE38175B314500897B22 /* EditViewController */,
 				BAA42B6617560794001CA8A8 /* LoginAndRegistViewController */,
 				BA9EFB3817572837009B36A9 /* MainNavViewController */,
+				BA9BCE45175B32EC00897B22 /* NetworkDeviceViewController */,
+				BA9BCE52175B33EA00897B22 /* SettingViewController */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -355,10 +490,12 @@
 		BADA24B0175450E80034F8D6 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
-				BA929F291757ADDB007742B3 /* NSString+OAURLEncodingAdditions */,
+				BA900A3B1758FFAD00FE5814 /* BJGridItem */,
 				BA929F111757A0F6007742B3 /* CloudService */,
 				BADA24B1175450E80034F8D6 /* Debug */,
 				BA9EFB20175704B4009B36A9 /* FMDB */,
+				BA9BCE27175AFD5400897B22 /* MenuBar */,
+				BA929F291757ADDB007742B3 /* NSString+OAURLEncodingAdditions */,
 				BA929F151757AC91007742B3 /* SBJSON */,
 				BA9C7EEB17565A8300640438 /* UIScreen+UIWindowSize */,
 				BAA42B5E1756023E001CA8A8 /* UIView+UIAdaptation */,
@@ -397,10 +534,11 @@
 			isa = PBXGroup;
 			children = (
 				BA9EFB31175708E0009B36A9 /* libsqlite3.0.dylib */,
-				BAF2DEB61754496C0038C0F9 /* UIKit.framework */,
-				BAF2DEB81754496C0038C0F9 /* Foundation.framework */,
 				BAF2DEBA1754496C0038C0F9 /* CoreGraphics.framework */,
+				BAF2DEB81754496C0038C0F9 /* Foundation.framework */,
+				BA900A3F175901AB00FE5814 /* QuartzCore.framework */,
 				BAF2DED41754496D0038C0F9 /* SenTestingKit.framework */,
+				BAF2DEB61754496C0038C0F9 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -494,6 +632,14 @@
 				BA9EFB54175728ED009B36A9 /* MainNavViewController.xib in Resources */,
 				BA9EFB55175728ED009B36A9 /* MainNavViewController_Ipad.xib in Resources */,
 				BA34E4271757464300B5A138 /* DeviceShop.db in Resources */,
+				BA9BCE36175B310900897B22 /* DeviceLibraryViewController.xib in Resources */,
+				BA9BCE37175B310900897B22 /* DeviceLibraryViewController_Ipad.xib in Resources */,
+				BA9BCE43175B328B00897B22 /* EditViewController.xib in Resources */,
+				BA9BCE44175B328B00897B22 /* EditViewController_Ipad.xib in Resources */,
+				BA9BCE50175B335C00897B22 /* NetworkDeviceViewController.xib in Resources */,
+				BA9BCE51175B335C00897B22 /* NetworkDeviceViewController_Ipad.xib in Resources */,
+				BA9BCE5D175B347500897B22 /* SettingViewController.xib in Resources */,
+				BA9BCE5E175B347500897B22 /* SettingViewController_Ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +672,12 @@
 				BA929F271757AC91007742B3 /* SBJsonParser.m in Sources */,
 				BA929F281757AC91007742B3 /* SBJsonWriter.m in Sources */,
 				BA929F2C1757ADEB007742B3 /* NSString+OAURLEncodingAdditions.m in Sources */,
+				BA900A3E1758FFAD00FE5814 /* BJGridItem.m in Sources */,
+				BA9BCE2A175AFD7B00897B22 /* MenuBar.m in Sources */,
+				BA9BCE2F175B2FF600897B22 /* DeviceLibraryViewController.m in Sources */,
+				BA9BCE3C175B318500897B22 /* EditViewController.m in Sources */,
+				BA9BCE49175B32FE00897B22 /* NetworkDeviceViewController.m in Sources */,
+				BA9BCE56175B33FC00897B22 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -48,7 +48,7 @@
     float currentSize_w = [self currentSize:NO];   //宽度当前设备与480x320比例
     
     CGRect frame = CGRectMake(x*currentSize_w, y*currentSize_h,
-                            width*currentSize_w, height*currentSize_h);
+                              width*currentSize_w, height*currentSize_h);
     
     return frame;
 }

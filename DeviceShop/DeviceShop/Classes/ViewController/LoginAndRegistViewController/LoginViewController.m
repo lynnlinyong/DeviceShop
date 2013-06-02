@@ -51,11 +51,11 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void) viewDidDisappear:(BOOL)animated
+- (void) viewDidUnload
 {
     emailFld.delegate = nil;
     pwdFld.delegate   = nil;
-    [super viewDidDisappear:animated];
+    [super viewDidUnload];
 }
 
 - (void) dealloc

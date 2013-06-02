@@ -12,8 +12,6 @@
 /**
  * Public Headers
  **/
-#import "CloudService.h"
-#import "FMDatabaseOperate.h"
 #import "LoginViewController.h"
 #import "RegistViewController.h"
 #import "MainNavViewController.h"

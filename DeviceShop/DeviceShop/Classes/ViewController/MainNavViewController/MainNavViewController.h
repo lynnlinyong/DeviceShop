@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainNavViewController : UIViewController
+@interface MainNavViewController : UIViewController<
+                                                    MenuBarDelegate,
+                                                    UIScrollViewDelegate,
+                                                    BJGridItemDelegate,
+                                                    UIGestureRecognizerDelegate>
+{
+    
+}
 
+@property (nonatomic, retain) MenuBar       *mb;
+@property (nonatomic, retain) UIPageControl *pageCtrl;
+@property (nonatomic, retain) UIScrollView  *deviceScrollView;
 @end

@@ -12,6 +12,7 @@
                                                     MenuBarDelegate,
                                                     UIScrollViewDelegate,
                                                     BJGridItemDelegate,
+                                                    PwdInputPadViewDelegate,
                                                     UIGestureRecognizerDelegate>
 {
     

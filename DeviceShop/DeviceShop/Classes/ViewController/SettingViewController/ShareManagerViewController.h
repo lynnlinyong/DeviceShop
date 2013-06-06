@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShareManagerViewController : UIViewController
+@interface ShareManagerViewController : UIViewController<
+                                                        UITableViewDataSource,
+                                                        UITableViewDelegate>
+{
+    UITableView     *shareTab;
+    NSMutableArray  *shareListArray;
+}
 
 @end

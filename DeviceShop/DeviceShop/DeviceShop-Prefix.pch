@@ -16,6 +16,7 @@
     #import "MenuBar.h"
     #import "BJGridItem.h"
     #import "CloudService.h"
+    #import "PwdInputPadView.h"
     #import "ViewControlHeader.h"
     #import "FMDatabaseOperate.h"
     #import "UIView+UIAdaptation.h"

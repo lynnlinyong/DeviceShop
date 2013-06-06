@@ -277,6 +277,89 @@
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    switch (indexPath.section)
+    {
+        case 0:             //设置&帮助
+        {
+            switch (indexPath.row)
+            {
+                case 0:         //更换背景
+                {
+                    ChangBackgroupViewController *cbVc = [ChangBackgroupViewController createViewController:[ChangBackgroupViewController class]];
+                    [self.navigationController pushViewController:cbVc
+                                                         animated:YES];
+                    break;
+                }
+                case 1:         //设置网络控制密码
+                {
+                    break;
+                }
+                case 2:         //网络用户名
+                {
+                    break;
+                }
+                case 3:         //密码
+                {
+                    break;
+                }
+                case 4:         //帮助
+                {
+                    HelpViewController *hpVc = [HelpViewController createViewController:[HelpViewController class]];
+                    [self.navigationController pushViewController:hpVc
+                                                         animated:YES];
+                    break;
+                }
+                default:
+                    break;
+            }
+            break;
+        }
+        case 1:             //备份&恢复
+        {
+            switch (indexPath.row)
+            {
+                case 0:     //备份
+                {
+                    break;
+                }
+                case 1:     //恢复
+                {
+                    break;
+                }
+                case 2:     //分享管理&注销
+                {
+                    break;
+                }
+                default:
+                    break;
+            }
+            break;
+        }
+        case 2:             //分享管理&注销
+        {
+            switch (indexPath.row)
+            {
+                case 0:     //分享管理
+                {
+                    ShareManagerViewController *smVc = [ShareManagerViewController createViewController:[ShareManagerViewController class]];
+                    [self.navigationController pushViewController:smVc
+                                                         animated:YES];
+                    break;
+                }
+                case 1:     //注销
+                {
+                    break;
+                }
+                default:
+                    break;
+            }
+            break;
+        }
+        default:
+        {
+            break;
+        }
+    }
 }
 
 #pragma mark 

@@ -90,6 +90,10 @@
     mb = [[MenuBar alloc]initWithFrame:[UIView fitCGRect:CGRectMake(0, 380, 300, 40)]];
     mb.delegate = self;
     [self.view addSubview:mb];
+    
+//    PwdInputPadView *ip = [[PwdInputPadView alloc]initWithFrame:[UIView fitCGRect:CGRectMake(0, 0, 320, 460)]];
+//    ip.delegate = self;
+//    [self.view addSubview:ip];
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
@@ -155,6 +159,23 @@
             CLog(@"ERROR:Func:%s, Line:%d", __func__, __LINE__);
             break;
         }
+    }
+}
+
+#pragma mark 
+#pragma mark - PwdInputPadViewDelegate
+- (void) inputPad:(PwdInputPadView *)pad password:(NSMutableString *)pwd
+{
+    if ([pwd isEqualToString:@"1234"])
+    {
+        CLog(@"That's good!");
+    }
+    else
+    {
+        CLog(@"it's error!");
+        
+        //清除密码
+        pad.isClean = YES;
     }
 }
 @end

@@ -12,6 +12,7 @@
 /**
  * Public Headers
  **/
+#import "AppDelegate.h"
 #import "HelpViewController.h"
 #import "PortViewController.h"
 #import "EditViewController.h"
@@ -19,6 +20,7 @@
 #import "RegistViewController.h"
 #import "SettingViewController.h"
 #import "MainNavViewController.h"
+#import "RecoverViewController.h"
 #import "ForgetPwdViewController.h"
 #import "ShareManagerViewController.h"
 #import "DeviceLibraryViewController.h"
@@ -35,7 +37,6 @@
 
 //Database Name
 #define DB_NAME         @"DeviceShop"
-
 #define USER_NAME       @"USER_NAME"
 
 /**

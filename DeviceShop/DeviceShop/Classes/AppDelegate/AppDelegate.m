@@ -17,7 +17,7 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{    
     //删除数据库
     if ([[[[FMDatabaseOperate alloc]init]autorelease] removeLocalDB])
     {

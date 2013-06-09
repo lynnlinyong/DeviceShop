@@ -26,7 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+ 
+    [self initUI];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +36,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark
+#pragma mark - Custom Action
+- (void) initUI
+{
+    self.title = @"更换背景";
+    
+    UINavigationBar *navBar = [self.navigationController.navigationBar setNavBarBackgroup:self];
+}
 @end

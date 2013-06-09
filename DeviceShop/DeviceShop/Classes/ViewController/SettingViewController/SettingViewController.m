@@ -56,13 +56,16 @@
 {
     [super viewWillAppear:animated];
     
-    self.navigationController.navigationBarHidden = NO;
+//    self.navigationController.navigationBarHidden = NO;
 }
 
 #pragma mark
 #pragma mark - Custom Action
 - (void) initUI
 {
+    //设置导航条背景
+    [self.navigationController.navigationBar setNavBarBackgroup:self];
+    
     setTab = [[UITableView alloc] initWithFrame:[UIView fitCGRect:CGRectMake(0, 0, 320, 420)]
                                           style:UITableViewStyleGrouped];
     setTab.delegate   = self;
@@ -73,6 +76,7 @@
     mb.delegate = self;
     [self.view addSubview:mb];
 }
+
 
 #pragma mark 
 #pragma mark UITableViewDelegate and UITableViewDataSource
@@ -324,10 +328,9 @@
                 }
                 case 1:     //恢复
                 {
-                    break;
-                }
-                case 2:     //分享管理&注销
-                {
+                    RecoverViewController *rVc = [RecoverViewController createViewController:[RecoverViewController class]];
+                    [self.navigationController pushViewController:rVc
+                                                         animated:YES];
                     break;
                 }
                 default:

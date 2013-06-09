@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RecoverViewController : UIViewController
+@interface RecoverViewController : UIViewController<
+                                                    UITableViewDelegate,
+                                                    UITableViewDataSource>
+{
+    NSMutableArray    *backListArray;
+    UITableView       *backTab;
+}
 
 @end
